@@ -1,0 +1,159 @@
+.banner-section .banner-content{
+  margin-left: 5%;
+}
+.banner-section .banner-content .small-text {
+  background: linear-gradient(90.07deg, #FEE882 1.86%, #DBB155 16.17%, #FFF79F 51.64%, #FEE882 75.77%, #C99740 98.88%);
+  border-radius: 5px;
+  padding: 8px 15px;
+  width: 16%;
+}
+.banner-section .banner-content p{
+  margin: 15px 0 10px;
+}
+.banner-section .banner-btn a{
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none !important;
+}
+.video-section .video-posts{
+  padding: 0 5%;
+}
+.video-section h2{
+  -webkit-text-stroke: 1px #fff;
+  position: relative;
+  -webkit-text-fill-color: black;
+}
+.video-section .post-content img{
+  border-radius: 10px;
+}
+.video-section .video-posts .post-content{
+  position: relative;
+}
+.video-section .post-content .image-content{
+  position: absolute;
+  left: 0px;
+  top: auto;
+  bottom: 100px;
+  padding: 10px 0px 5px 10px;
+  width: 100%;
+  justify-content: space-between !important;
+}
+.video-section .post-content .image-content .rating{
+  margin-left: 54%;
+  width: 80px;
+}
+.video-section .post-content .image-content .trailor-link a{
+  background-color: transparent;
+  padding: 0;
+  text-decoration: none !important;
+}
+.video-section .post-content .image-content .trailor-link a:before{
+  content: "\f144";
+  font-size: 20px;
+}
+.video-section .post-content .image-content p.rating:before{
+  content: "\f005";
+  color: #000;
+}
+.video-section .post-content .image-content .trailor-link a:before,
+.video-section .post-content .image-content p.rating:before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 10px;
+}
+@media screen and (max-width: 720px) {
+  .banner-section {
+    min-height: auto !important;
+  }
+  .banner-section .banner-content{
+    text-align: center;
+    margin-left: 0;
+  }
+  .banner-section .banner-content .small-text{
+    display: none;
+  }
+  .banner-section .banner-content p{
+    margin: 15px 0 20px;
+  }
+  .banner-section .banner-content .wp-block-buttons{
+    justify-content: center;
+  }
+  .video-section .video-posts{
+    padding: 0;
+  }
+  .video-section .video-posts{
+    gap: 0;
+  }
+  .video-section .post-content .image-content p.rating{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 767px) {
+  .banner-section {
+    min-height: auto !important;
+  }
+  .banner-section .banner-content h1{
+    font-size: 35px !important;
+  }
+  .banner-section .banner-content .small-text{
+    width: 23%;
+  }
+  .banner-section .banner-content p{
+    font-size: 14px !important;
+  }
+  .video-section .video-posts{
+    gap: 0;
+  }
+  .video-section .featured-video{
+    flex-wrap: nowrap !important;
+    gap: 1em;
+  }
+  .video-section .post-content .image-content .wp-block-column{
+    flex-basis: 50% !important;
+  }
+  .video-section .post-content .image-content .wp-block-button{
+    position: absolute;
+    bottom: 25%;
+  }
+  .video-section .post-content .image-content .rating {
+    margin-left: 74%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 1000px) {
+  .banner-section {
+    min-height: auto !important;
+  }
+  .banner-section .banner-content .small-text{
+    width: 26%;
+  }
+  .video-section .featured-video .post-content h3{
+    font-size: 20px !important;
+  }
+  .video-section .featured-video .post-content  p{
+    font-size: 12px !important;
+  }
+  .video-section .post-content .image-content{
+    padding: 10px 0px 5px 0px;
+  }
+  .video-section .post-content .image-content .rating {
+    margin-left: 15%;
+  }
+  .video-section .featured-video .post-content .image-content a{
+    font-size: 10px;
+  }
+  .video-section .featured-video .post-content .image-content a:before{
+    font-size: 15px;
+  }  
+  .video-section .post-content .image-content .rating {
+    margin-left: 4%;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {  
+  .video-section .post-content .image-content .rating {
+      margin-left: 36%;
+  }
+}

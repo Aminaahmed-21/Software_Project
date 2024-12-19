@@ -1,0 +1,655 @@
+2024-12-01T17:53:47+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.
+2024-12-01T18:06:43+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => sondosashraf2017@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 100.00
+                            [currency_code] => EGP
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => IBM Data Science
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [sku] => 229
+                                    [description] => Product ID: 229
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=5f2cb0db15
+            [cancel_url] => http://localhost/wordpress/checkout/
+            [brand_name] => webpage
+        )
+
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [issue] => CURRENCY_NOT_SUPPORTED
+                            [links] => Array
+                                (
+                                )
+
+                            [description] => Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 5ead3f9168e0c
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CURRENCY_NOT_SUPPORTED
+                            [rel] => information_link
+                        )
+
+                )
+
+        )
+
+)
+
+2024-12-01T18:06:43+00:00 ERROR Error creating PayPal order. Msg: Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes. Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => sondosashraf2017@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 100.00
+                            [currency_code] => EGP
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => IBM Data Science
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [sku] => 229
+                                    [description] => Product ID: 229
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=5f2cb0db15
+            [cancel_url] => http://localhost/wordpress/checkout/
+            [brand_name] => webpage
+        )
+
+)
+
+2024-12-01T18:35:56+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => sondosashraf2017@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 100.00
+                            [currency_code] => EGP
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => IBM Data Science
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [sku] => 229
+                                    [description] => Product ID: 229
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=5f2cb0db15
+            [cancel_url] => http://localhost/wordpress/checkout/
+            [brand_name] => webpage
+        )
+
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [issue] => CURRENCY_NOT_SUPPORTED
+                            [links] => Array
+                                (
+                                )
+
+                            [description] => Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 727c04378bd47
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CURRENCY_NOT_SUPPORTED
+                            [rel] => information_link
+                        )
+
+                )
+
+        )
+
+)
+
+2024-12-01T18:35:56+00:00 ERROR Error creating PayPal order. Msg: Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes. Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => sondosashraf2017@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 100.00
+                            [currency_code] => EGP
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => IBM Data Science
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [sku] => 229
+                                    [description] => Product ID: 229
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=5f2cb0db15
+            [cancel_url] => http://localhost/wordpress/checkout/
+            [brand_name] => webpage
+        )
+
+)
+
+2024-12-01T18:44:35+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => sondos
+                    [surname] => ashraf
+                )
+
+            [email_address] => sondosashraf2017@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 90.00
+                            [currency_code] => EGP
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 10.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => IBM Data Science
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [sku] => 229
+                                    [description] => Product ID: 229
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=5f2cb0db15
+            [cancel_url] => http://localhost/wordpress/checkout/
+            [brand_name] => webpage
+        )
+
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [issue] => CURRENCY_NOT_SUPPORTED
+                            [links] => Array
+                                (
+                                )
+
+                            [description] => Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 099be3197f63d
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CURRENCY_NOT_SUPPORTED
+                            [rel] => information_link
+                        )
+
+                )
+
+        )
+
+)
+
+2024-12-01T18:44:35+00:00 ERROR Error creating PayPal order. Msg: Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes. Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => sondos
+                    [surname] => ashraf
+                )
+
+            [email_address] => sondosashraf2017@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 90.00
+                            [currency_code] => EGP
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 10.00
+                                            [currency_code] => EGP
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => IBM Data Science
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => EGP
+                                            [value] => 100.00
+                                        )
+
+                                    [sku] => 229
+                                    [description] => Product ID: 229
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => NO_SHIPPING
+            [return_url] => http://localhost/wordpress/wc-api/ppcp_checkout_return/?_checkoutnonce=5f2cb0db15
+            [cancel_url] => http://localhost/wordpress/checkout/
+            [brand_name] => webpage
+        )
+
+)
+
